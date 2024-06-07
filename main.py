@@ -11,7 +11,7 @@ def calculate():
     y2 = y1.get() + scale.get() * distance.get() * math.sin(theta_radians)
     x2_round = round(x2)
     y2_round = round(y2)
-    CTkMessagebox(title='X2 en Y2', message=f'{x2_round, y2_round}')
+    CTkMessagebox(title='X2 en Z2', message=f'{x2_round, y2_round}')
 
 
 def show_frame(frame):
@@ -68,7 +68,7 @@ x1_label.grid(row=3, column=2)
 x1_entry = CTkEntry(menu, textvariable=x1)
 x1_entry.grid(row=3, column=3, sticky=W)
 y1 = DoubleVar()
-y1_label = CTkLabel(menu, text='Y1', font=('Helvetica', 24), text_color="#f7f7f5")
+y1_label = CTkLabel(menu, text='Z1', font=('Helvetica', 24), text_color="#f7f7f5")
 y1_label.grid(row=3, column=4)
 y1_entry = CTkEntry(menu, textvariable=y1)
 y1_entry.grid(row=3, column=5, sticky=W)
