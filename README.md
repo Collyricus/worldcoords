@@ -4,7 +4,7 @@ This is a GUI-interface for calculating Minecraft world coords with measurments 
 You can use the main.py file to run the Python code in your preferred IDE. This will open a GUI window.
 
 Use as follows:
-1. Decide a refrence point or your x1 and z1 coordinates and enter them in the GUI. This is the point from which the coordinates are measured, based on the measurments you provide.
+1. Decide a refrence point, or your x1 and z1, coordinates and enter them in the GUI. This is the point from which the coordinates are measured, based on the measurments you provide.
 2. Find a location on Google Earth that you want to use as your refrence point.
 3. Use the 'ruler' in Google Earth to measure the distance from this refrence point to the point you want the coordinates of.
 4. Copy the 'length' (in metres) and the 'heading' and enter them in the GUI.
