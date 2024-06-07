@@ -12,6 +12,6 @@ Use as follows:
 6. Click on 'calculate' and now you will so your x2 and z2 coordinates. 
 
 
-This project is in a prototype face, with a ugly but simple GUI. The project is being updated periodically.
+This project is in a prototype face, with a simple but ugly-looking GUI. The project is being updated periodically.
 
 Inspired by: MCParks Point Locator Tool
